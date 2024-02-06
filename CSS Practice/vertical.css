@@ -1,0 +1,27 @@
+/* Container for the notebook-style margin */
+.notebook-container {
+    margin-left: 50px;
+    position: relative;
+    padding-left: 2px; /* Adjust the padding to control the width of the left margin */
+  }
+
+  /* Pseudo-element for the notebook line */
+  .notebook-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10px; /* Adjust the left position to control the distance between the line and the content */
+    bottom: 0;
+    width: 2px; /* Adjust the width of the line */
+    background-color: #333; /* Set the color of the line */
+  }
+
+  /* Content styles (adjust as needed) */
+  .content {
+    padding-top: 20px;
+    padding-left: 20px; /* Add some padding to the content inside the notebook */
+    margin-left: 50px;
+    border-color: black;
+    border-width: 2px;
+    border: #333;
+  }
