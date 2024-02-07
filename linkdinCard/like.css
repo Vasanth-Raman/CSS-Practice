@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box{
+    /* height: 80px; */
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+    
+}
+
+i{
+    color: #878787;
+}
+
+.btn{
+    width: 90px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    color: gray;
+    background-color: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+}
